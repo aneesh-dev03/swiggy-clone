@@ -1,21 +1,12 @@
 {
-  "name": "js",
+  "name": "swiggy-clone",
   "version": "1.0.0",
-  "description": "this is namaste react ",
-  "homepage": "https://github.com/aneesh-dev03/namaste-react#readme",
-  "bugs": {
-    "url": "https://github.com/aneesh-dev03/namaste-react/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aneesh-dev03/namaste-react.git"
-  },
+  "description": "Swiggy Clone built with React",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build index.html --no-source-maps",
     "test": "jest"
   },
   "dependencies": {
