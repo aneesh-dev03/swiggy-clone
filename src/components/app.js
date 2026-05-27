@@ -8,7 +8,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Contact from "./Contact";
 import Error from "./Error";
 import RestaurantMenu from "./RestaurantMenu";
-import Cart from "./Cart"; // ← add this
+import Cart from "./cart"; // ← add this
 import { Provider } from "react-redux";
 import store from "../utilis/appStore";
 
